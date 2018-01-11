@@ -1,0 +1,25 @@
+# H1 The Absolute Minimum VI Cheats...
+
+h - move cursor left
+j - move cursor down
+k - move cursor up
+l - move cursor right
+0 - jump to the start of the line
+$ - jump to the end of the line
+
+i - insert before the cursor
+I - insert at the beginning of the line
+o - append (open) a new line below the current line
+O - append (open) a new line above the current line
+
+yy - yank (copy) a line
+dd - delete (cut) a line
+
+:w - write (save) the file, but don't exit
+:w !sudo tee % - write out the current file using sudo
+:wq or :x or ZZ - write (save) and quit
+:q - quit (fails if there are unsaved changes)
+:q! or ZQ - quit and throw away unsaved changes
+:wqa - write (save) and quit on all tabs
+
+**Comprehensive Vim cheat sheet: https://vim.rtorr.com/**
